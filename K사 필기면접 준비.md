@@ -1,7 +1,7 @@
 # :pencil2: 필기면접 준비
 </br>
 
-### :heavy_check_mark: **HTTP Server vs WAS(Web Application Server) 차이**
+### :heavy_check_mark: **HTTP Server vs WAS(Web Application Server)**
 
   - **HTTP Server(Web server)**   
     \- 일반적으로 인터넷 브라우저를 통해 HTTP를 사용하여 클라이언트 컴퓨터와 통신하는 서버입니다.     
@@ -18,24 +18,44 @@
   - **toUpperCase()**    
     \- toUpperCase() 메서드는 문자열을 대문자로 변환한 값을 반환합
 
-### :heavy_check_mark: **extends vs implement 차이**  
+### :heavy_check_mark: **extends vs implement**  
   - **extends(상속)**     
-    \- extends 키워드를 사용하여 부모클래스를 상속받아 자식클래스에서 부모클래스가 가진 것을 사용할 수 있습니다.  
+    \- extends 키워드를 사용하여 부모 클래스를 상속받아 자식 클래스에서 부모 클래스가 가진 것을 사용할 수 있습니다.  
     \- 부모가 가진 것을 자식에게 물려주는 것을 is a 혹은 kind of 관계라고 부릅니다.  
  
   - **implement(구현)**  
-    \- 인터페이스를 상속받아 기능을 재정의(Overriding)하는 것 입니다.
+    \- 인터페이스를 상속받아 기능을 재정의(Overriding)하는 것입니다.
 
-### :heavy_check_mark: **Call by Value vs Call by Reference 차이**  
+### :heavy_check_mark: **Call by Value vs Call by Reference**  
   - **Call by Value**   
     \- 값에 의한 호출을 의미합니다.   
-    \- 전달받은 값을 복사하여 처리하기 때문에 전달받은 값이 변경되어도 원본의 값을 변경되지 않습니다.  
-    \- `정리` Call by value는 메서드 호출 시에 사용되는 인자 값의 메모리에 저장되어 있는 값(value)을 복사하여 보낸다.
+    \- 전달받은 값을 복사하여 처리하기 때문에 전달받은 값이 변경되어도 원본의 값이 변경되지 않습니다.  
+    \- `정리` Call by value는 메서드 호출 시에 사용되는 인자 값의 메모리에 저장된 값(value)을 복사하여 보낸다.
     
   - **Call by Reference**   
     \- 참조에 의한 호출을 의미합니다.   
-    \- 전달받은 값을 직접 참조하기 때문에 값이 변경되면 원본도 같이 변경됩니다.  
+    \- 전달받은 값을 직접 참조하기 때문에 값이 변경되면 원본도 같이 변경됩니다.   
     \- `정리` Call by reference는 메서드 호출 시 사용되는 인자 값의 메모리에 저장되어있는 주소(Address)를 복사하여 보낸다.  
+    
+### :heavy_check_mark: **Session vs Cookie**  
+  
+  - **Session와 Cookie 공통점**    
+    \- **클라이언트의 정보를 유지**하기 위해 사용하는 것이 쿠키와 세션입니다.    
+
+  - **Session(세션)**  
+    \- 세션은 쿠키를 기반으로, 사용자에 대한 정보를 웹 서버 측에 저장합니다.  
+    \- 사용자에 대한 정보를 웹 서버에 두기 때문에 보안면에서는 쿠키보다 우수합니다.    
+    \- 클라이언트를 구분하기 위해 Session ID를 부여하여 브라우저가 종료할 때까지 인증 상태를 유지해줍니다.    
+    \- 동시 접속자가 많아질수록 세션값이 메모리를 많이 차지해 서버 과부하를 주게 되므로 성능 저하의 요인이 됩니다.   
+    \- 접속 시간에 제한을 두어 일정 시간 응답이 없으면 세션을 끊도록 설정 가능합니다.
+    
+    ##### [`+여기서 잠깐`]() Session 동작 방식
+      1. 클라이언트가 서버에 접속 시 Session ID를 발급하여 클라이언트에 전달합니다.
+      2. 서버에서 클라이언트로 돌려준 Session ID를 쿠키로 사용하여 JSESSIONID 쿠키 이름으로 서버에 저장
+      3. 클라이언트가 서버에 다시 접속 시 클라이언트의 Request-Header 필드인 Cookie를 확인하여 Session 값을 서버에 전달합니다.
+
+    ##### [`+여기서 잠깐`]() Session 사용 예시
+    \- 화면을 이동해도 로그인이 유지됩니다.     
     
 ### :heavy_check_mark: **JSON 타입**  
   - **JSON(JavaScript Object Notation)**  
