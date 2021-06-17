@@ -1,4 +1,4 @@
-# :pencil2: K사 필기면접 준비
+# :pencil2: 필기면접 준비
 </br>
 
 ### :heavy_check_mark: **HTTP Server vs WAS(Web Application Server) 차이**
