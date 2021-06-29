@@ -62,11 +62,11 @@
     \- GC에 의해 메모리 관리를 수행합니다.  
     \- 스택 기반의 가상머신입니다.  
     
-  - **JVM구성**
-    \- 3개의 서브시스템으로 구성되어 있습니다.      
-    \- 클래스 로더(Class Loader)     
-    \- Runtime Data Areas 
-    \- 실행 엔진(Excution Engine), Garbage Collector    
+  - **JVM구성**  
+    \- 3개의 서브시스템으로 구성되어 있습니다.       
+    \- 클래스 로더(Class Loader)       
+    \- Runtime Data Areas   
+    \- 실행 엔진(Excution Engine), Garbage Collector      
     
   - **실행과정**  
    1. 프로그램이 실행되면 JVM은 OS로부터 메모리를 할당 받는다.
@@ -95,8 +95,7 @@
   - **[Runtime Data Area 상세설명](https://github.com/genieeeee/java-concept-summary/blob/main/%5Bjava%5D%20JVM%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%82%AC%EC%9A%A9%20%EC%98%81%EC%97%AD.md)** 
   
   - **힙 영역**   
-    \- JVM이 구동될 때 생성되며 모든 스레드가 공유하는 영역.    
-    \- .class 파일들을 클래스 로더로 읽어들인다.       
+    \- JVM이 구동될 때 생성되며 모든 스레드가 공유하는 영역.      
     \- JVM이 읽어들인 클래스, 인터페이스에 대한 정보, 필드와 메소드, 런타임 풀 상수,  Static 변수, 생성자(Constructor)등 저장   
   - **힙 영역**      
     \- 객체와 배열이 생성되는 영역     
