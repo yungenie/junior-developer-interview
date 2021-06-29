@@ -177,6 +177,16 @@
     \- 프로세스 내에서 동시에 실행되는 독립적인 실행 단위를 뜻합니다.   
 </br>
 
+### :heavy_check_mark: **스레드(Thread)**
+
+  - **스레드 장점** 
+    \- Context Switching이 빠르기 때문에 시스템 처리량이 증가합니다. 
+    \- 프로세스 내의 Stack영역을 제외한 모든 메모리를 공유하기 때문에 통신부담이 적어 프로그램 응답 시간이 단축된다. 
+
+    ##### **[`+여기서 잠깐`]() Context Switching이란?**   
+        - 현재 진행하고 있는 Task(Process, Thread)의 상태를 저장하고, 다음 진행할 Task의 상태 값을 읽어 적용하는 과정입니다.  
+</br>
+
 ### :heavy_check_mark: **replaceAll("[a-zA-Z]","").toUpperCase()**
   - **\[a-zA-Z]\(정규식)**   
     \- a-z, A-z까지 정규표현식(Regex)
