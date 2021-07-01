@@ -376,6 +376,18 @@
     ##### [`+여기서 잠깐`]() RESTful API란?  
 </br>
 
+### :heavy_check_mark: **JavaScript와 jQuery 차이점**   
+
+  - **JavaScript 구성요소**  
+    \- 자바스크립트 core 문법  
+    \- 자바스크립트 core 라이브러리  
+    \- 자바스크립트 BOM(Browser Object Model)  
+    \- 자바스크립트 DOM(Document Object Model)  
+
+  - 제이쿼리는 자바스크립트DOM작업을 쉽게 도와주는 라이브러리 입니다.
+</br> 
+
+
 ## NETWORK
 
 ### :heavy_check_mark: **HTTP vs HTTPS 차이는** 
