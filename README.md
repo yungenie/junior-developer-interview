@@ -226,6 +226,11 @@
     \- toUpperCase() 메서드는 문자열을 대문자로 변환한 값을 반환합
 </br>
 
+### :heavy_check_mark: **디자인 패턴** 
+  - **싱글톤(Signleton)**    
+    \- 클래스의 인스턴스 즉, 객체를 하나만 만들어 사용하는 패턴.  
+    
+    
 ## WEB
 
 ### :heavy_check_mark: **Session vs Cookie**   
