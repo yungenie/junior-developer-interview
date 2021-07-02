@@ -116,10 +116,10 @@
 
 ### :heavy_check_mark: **Overloading vs Overriding**  
   - **Overloading**    
-    \- 매개변수의 개수나 자료형을 다르게하여 같은 이름의 메소드를 사용할 수 있습니다. 
+    \- 매개변수의 개수나 자료형을 다르게하여 같은 이름의 메소드를 여러개 만들 수 있습니다.
     
   - **Overriding**    
-    \- 상속받은 클래스에서 같은 이름의 메소드를 재정의하는 것을 뜻합니다. 
+    \- 상속받은 클래스나 인터페이스의 메소드를 같은 이름으로 재정의하는 것을 뜻합니다. 
 </br>
 
 ### :heavy_check_mark: **Call by Value vs Call by Reference**  
