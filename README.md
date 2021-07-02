@@ -467,6 +467,6 @@
 ### :heavy_check_mark: **깊이 우선 탐색(DFS, Depth First Search)**   
   - stack 구현, 자식노드 즉, 하위레벨부터 탐색합니다. 
 
-### :heavy_check_mark: **넓이 우선 탐색(BFS, Breadth First Search)**   
+### :heavy_check_mark: **너비 우선 탐색(BFS, Breadth First Search)**   
   - Queue 구현, 형제노드 즉, 동등레벨부터 탐색합니다. 
     
