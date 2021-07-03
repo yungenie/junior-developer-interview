@@ -115,8 +115,8 @@
 </br>
 
 ### :heavy_check_mark: **Overloading vs Overriding**  
-  - **Overloading** 
-    \- 같은 메서드 이름, 다른 인자 목록으로 다수의 메서드를 중복 정의.  
+  - **Overloading**   
+    \- 같은 메서드 이름, 다른 인자 목록으로 다수의 메서드를 중복 정의.    
     \- 매개변수의 개수나 자료형을 다르게하여 같은 이름의 메소드를 여러개 만들 수 있습니다.
     
   - **Overriding**   
