@@ -56,19 +56,24 @@
 
 ### :heavy_check_mark: **객체지향 프로그램이 5대 원칙(SOLID)**
 
-  - **단일 책임 원칙(Single Responsiblity Principle)**    
+  - **단일 책임 원칙(SRP, Single Responsiblity Principle)**    
     \- 역할(책임)을 분리 하는 것.  
     \- 어떤 클래스를 변경해야하는 이유는 오직 하나뿐이어야 한다. 
   
-  - **개방-폐쇄 원칙(Open-Closed Principle)**  
+  - **개방-폐쇄 원칙(OCP, Open-Closed Principle)**  
     \- 클래스, 모듈, 함수 등 확장에 대해서는 열려 있어야 하지만, 변경에 대해서는 닫혀 있어야 합니다.  
     \- 이를 위해 인터페이스를 사용하기도 합니다.  
     \- 예) 데이터베이스 프로그래밍을 지원하는 lib, Framework  
     \- 예) JVM, os의 변환에 닫혀있고, 각 os별 JVM은 확장에 열려 있는 구조  
 
-  - **리스코프 치환 원칙(Liskov Substitution Principle)**   
+  - **리스코프 치환 원칙(LSP, Liskov Substitution Principle)**   
     \- 하위클래스의 인스턴스는 상위형 객체 참조 변수에 대입해 상위 클래스의 인스턴스 역할을 하는데 문제가 없어야 한다.  
     \- 계층형 x, 분류도 o  
+    
+  - **인터페이스 분리 원칙(ISP, Interface Segregation Principle)**    
+    \- 자신이 사용하지 않는 메서드에 의존관계를 맺으면 안된다.  
+    \- 작은 단위로 인터페이스를 분리시키고, 꼭 필요한 메서들만 사용하여 내부 의존성 관계를 느슨하게 한다.  
+    \- 인터페이스는 is able to(~할 수 있는)  
 
 ### :heavy_check_mark: **결합도와 응집도**
 
