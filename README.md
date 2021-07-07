@@ -87,6 +87,10 @@
     \- 하나의 모듈 내부에 존재하는 구성 요소들의 기능적 관련성으로, 응집도가 높은 모듈은 하나의 책임에 집중하고 독립성이 높아져 재사용이나 기능의 수정, 유지보수가 용이해집니다.  
 </br> 
 
+### :heavy_check_mark: **디자인 패턴** 
+  - **싱글톤(Signleton)**    
+    \- 클래스의 인스턴스 즉, 객체를 하나만 만들어 사용하는 패턴.  
+    
 ### :heavy_check_mark: **JVM(Java Virtual Machine)**
 
   - **JVM이란?**    
@@ -252,9 +256,7 @@
     \- toUpperCase() 메서드는 문자열을 대문자로 변환한 값을 반환합
 </br>
 
-### :heavy_check_mark: **디자인 패턴** 
-  - **싱글톤(Signleton)**    
-    \- 클래스의 인스턴스 즉, 객체를 하나만 만들어 사용하는 패턴.  
+
     
     
 ## WEB
@@ -394,6 +396,10 @@
   ##### **[`+여기서 잠깐`]() Framework와 Library 차이는?**  
       - Framework : 내가 개발하기 위해 지켜야 하는 구조  
       - Library : 내가 개발하기 위해 필요한 것들이 이미 구현되어 있는 대상  
+</br>
+
+### :heavy_check_mark: **Spring Framework**  
+- 자바 엔터프라이즈 개발을 편하게 해주는 오픈소스 경량급 어플리케이션 프레임워크   
 </br>
 
 ### :heavy_check_mark: **DI(Dependency Injection)**   
