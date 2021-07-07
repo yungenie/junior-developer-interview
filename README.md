@@ -91,6 +91,13 @@
   - **싱글톤(Signleton)**    
     \- 클래스의 인스턴스 즉, 객체를 하나만 만들고 그것을 계속해서 재사용하는 패턴.  
     
+  - **템플릿 메서드 패턴(Template Method Pattern)**    
+    \- 상위클래스 견본 메소드에서 하위클래스가 오버라이딩한 메소드를 호출하는 패턴  
+  
+  - **팩토리 메서드 패턴(Factory Method Pattern)**    
+    \- 오버라이딩된 메서드가 객체를 반환하는 패턴      
+</br> 
+
 ### :heavy_check_mark: **JVM(Java Virtual Machine)**
 
   - **JVM이란?**    
