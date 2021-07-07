@@ -89,7 +89,7 @@
 
 ### :heavy_check_mark: **디자인 패턴** 
   - **싱글톤(Signleton)**    
-    \- 클래스의 인스턴스 즉, 객체를 하나만 만들어 사용하는 패턴.  
+    \- 클래스의 인스턴스 즉, 객체를 하나만 만들고 그것을 계속해서 재사용하는 패턴.  
     
 ### :heavy_check_mark: **JVM(Java Virtual Machine)**
 
