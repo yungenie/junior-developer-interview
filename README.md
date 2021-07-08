@@ -139,7 +139,7 @@
   
   - **[Runtime Data Area 상세설명](https://github.com/genieeeee/java-concept-summary/blob/main/%5Bjava%5D%20JVM%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%82%AC%EC%9A%A9%20%EC%98%81%EC%97%AD.md)** 
   
-  - **힙 영역**   
+  - **메서드 영역**   
     \- JVM이 구동될 때 생성되며 모든 스레드가 공유하는 영역.      
     \- JVM이 읽어들인 클래스, 인터페이스에 대한 정보, 필드와 메소드, 런타임 풀 상수,  Static 변수, 생성자(Constructor)등 저장   
   - **힙 영역**      
@@ -161,8 +161,18 @@
   - LinkedList : 양방향 포인터 구조로 객체가 중간에 삽입/삭제에 유리하며, 순차적인 삽입/삭제, 검색은 ArrayList가 더 빠르다.  
     
 - **Set 컬렉션**    
-  - 순서를 유지하지 않는 객체의 집합으로 객체의 중복을 허용하지 않고, 하나의 null만 저장.
-  - 
+  - 순서를 유지하지 않는 객체의 집합으로 객체의 중복을 허용하지 않고, 하나의 null만 저장. 
+  - HashSet : 순서없이 저장하고, 동일한 객체는 중복 저장하지 않습니다.   
+  - TreeSet : 입력한 순서대로 값을 저장하지 않지만, 기본적으로 오름차순으로 정렬.  
+  - LinkedHashSet : 입력한 순서대로 값을 저장한다.  
+
+- **Map 컬렉션**
+  - 키(key)와 값(Value)로 구성된 Map.Entry 객체를 저장하는 구조를 가지고 있다.  
+  - 키는 중복 허용을 하지 않으나, 값은 중복 허용한다. (같은 키값으로 저장하려고 할때, 기존값 대신 새로운값으로 대체됨)  
+  - HashMap : 가장 많이 사용되는 클래스 중 하나며, 해시 알고리즘(hash algorithm)을 사용하여 검색 속도가 매우 빠르다. (키와 값 타입은 클래스, 인터페이스 타입만 사용가능)  
+  - HashTable : HaspMap과 동일한 내부 구조 이며, 동기화를 보장한다.   
+  - TreeMap : 객체를 이진 검색 트리(binary search tree) 형태로 저장하므로, 객체의 삽입/삭제가 빠르다. 
+</br>
 
 ### :heavy_check_mark: **Overloading vs Overriding**  
   - **Overloading**   
