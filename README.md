@@ -75,7 +75,7 @@
     \- 작은 단위로 인터페이스를 분리시키고, 꼭 필요한 메서들만 사용하여 내부 의존성 관계를 느슨하게 한다.  
     \- 인터페이스는 is able to(~할 수 있는)  
 
-  - **의존 역적 원칙(DIP, Dependency Inversion Principle)**  
+  - **의존 역전 원칙(DIP, Dependency Inversion Principle)**  
     \- 구체적인 클래스보다는 추상화된 인터페이스나 상위 클래스를 두어 변하기 쉬운 것의 영향을 받지 않게 하는 것.  
 </br> 
 
