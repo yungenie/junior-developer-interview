@@ -361,7 +361,9 @@
 
     ##### [`+여기서 잠깐`]() Session 사용 예시? 
         - 화면을 이동해도 로그인이 유지됩니다.        
-        
+
+  - **JWT(Json Web Token)**   
+    \- 서버와 클라이언트 간에 정보를 주고 받을 때 http-request header에 json토큰을 넣은 후 서버는 별도의 인증없이 헤더에 포함되어 있는 정보를 통해 인증을 합니다. 
 </br> 
 
 ### :heavy_check_mark: **HTTP Server(Web Server) vs WAS(Web Application Server)**
