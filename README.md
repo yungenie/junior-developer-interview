@@ -504,7 +504,7 @@
     \- 키-값이 쌍으로 이루어진 개방형 표준 데이터 포맷입니다. (데이터 교환 형식)         
     \- 비동기 브라우저/서버 통신(ajax)을 위해 사용하는 데이터 포맷입니다.   
     \- JavaScript에서 ajax 비동기 통신시 xmlHTTPRequest에 json형태의 데이터로 객체에 담아서 보냄     
-    \- 보통 RESTful API, Open API 에서 json 형태의 데이터를 주고 받습니다.      
+    \- 보통 REST API, Open API 에서 json 형태의 데이터를 주고 받습니다.      
     `정리` key-value 형식으로 데이터를 주고 받을 때 사용하는 데이터 포맷 형식입니다. {"key" : "value"}  
 
     ##### [`+여기서 잠깐`]() ajax란?  
