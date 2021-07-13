@@ -525,6 +525,9 @@
   - 제이쿼리는 자바스크립트DOM작업을 쉽게 도와주는 라이브러리 입니다.
 </br> 
 
+### :heavy_check_mark: **RestAPI** 
+- HTTP URL을 통해 자원을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD를 수행합니다.
+
 
 ## NETWORK
 
