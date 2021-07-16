@@ -186,6 +186,24 @@
     \- 메서드가 호출되면, 메서드의 매개변수, 지역변수가 저장되는 영역입니다.   
 </br>
 
+### :heavy_check_mark: **포장 클래스(Wrapper Class)**  
+- 기본타입(Byte, Short, Char, int, long, Float, double, Boolean)의 값을 객체로 다루기 위해 사용하는 클래스입니다.
+- 포장하고 있는 기본타입 값은 외부에서 변경할 수 없다는 점.
+- 포장 객체는 주로 컬렉션 프레임워크에서 기본 타입 값을 객체로 생성해서 관리할 때 사용됩니다.
+
+- **박싱(Boxing)**   
+  - 기본 타입의 값을 포장 객체로 만드는 과정을 박싱이라고 합니다.   
+  - Integer age = new Interger(27);  
+  - Integer age2 = Integer.valueOf(27);  
+  - Auto Boxing : Integer age3 = 27; // 포장 클래스 타입에 기본값이 대입될 경우, 힙영역 저장됨  
+    
+- **언박싱(UnBoxing)**  
+  - 포장 객체에서 기본 타입의 값을 얻어내는 과정을 언방식이라고 합니다.   
+  - int num = age.intValue();  
+  - 기본 타입 이름 + Value();  
+  - Auto UnBoxing : int num2 = age; // 기본 타입에 포장 객체가 대입되는 경우  
+  - 문자열을 기본 타입의 값으로 변환 : int num3 = Integer.parseInt("100");  
+ 
 ### :heavy_check_mark: **컬렉션 프레임워크(Collection Framework)**  
 - java.util패키지에서 제공하며, 자료구조를 사용하여 객체(데이터)들을 효율적으로 추가, 삭제, 검색할수 있도록 인터페이스와 구현 클래스들을 제공해줍니다. 
 - 자료구조를 사용하여 객체들을 효율적으로 추가, 삭제, 검색할 수 있도록 인터페이스와 구현클래스들을 java.util패키지에서 제공합니다. 
